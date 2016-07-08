@@ -72,7 +72,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.9.0)
     multi_json (1.11.2)
-    mysql (2.9.1)
+    mysql2 (0.4.4)
     nio4r (1.2.1)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
@@ -151,7 +151,7 @@ DEPENDENCIES
   byebug
   coffee-rails
   jbuilder (~> 2.0)
-  mysql (~> 2.9)
+  mysql2 (~> 0.4)
   rails (= 5.0.0)
   sass-rails (= 5.0.5)
   sdoc (~> 0.4.0)
