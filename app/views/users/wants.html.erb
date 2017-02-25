@@ -1,0 +1,26 @@
+<div>
+  <p>These are the wants for <%= @user.email %></p>
+</div>
+
+<div>
+  <table>
+    <thead>
+    <tr>
+      <td>Name</td>
+      <td>Description</td>
+      <td>URL</td>
+      <td>Image URL</td>
+    </tr>
+    </thead>
+    <tbody>
+    <% @user.products.each do |product| %>
+        <tr>
+          <td><%= product.name %></td>
+          <td><%= product.description %></td>
+          <td><%= product.url %></td>
+          <td><%= product.image_url %></td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
